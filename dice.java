@@ -19,9 +19,9 @@ public class JavaCraps {
             // Use Math.random() to simulate rolling two 6-sided dice.
             // Remember Math.random() returns a double from 0.0 to 0.999... 
             // You must cast it to an (int) and shift the range to 1-6.
-            
-            
-            int comeOutRoll = 7;
+            int die1 = (int)(Math.random() * 6) + 1;
+            int die2 = (int)(Math.random() * 6) + 1;
+            int comeOutRoll = die1 + die2;
             System.out.println("You rolled a " + comeOutRoll);
             
             // TODO 3: If / Else If Statements
