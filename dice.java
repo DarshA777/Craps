@@ -15,7 +15,7 @@ public class JavaCraps {
             System.out.println("Press Enter to roll the Come Out roll...");
             input.nextLine();
             
-            // TODO 2: Static Math Class
+            // TODO 2: Static Math Class Darsh 
             // Use Math.random() to simulate rolling two 6-sided dice.
             // Remember Math.random() returns a double from 0.0 to 0.999... 
             // You must cast it to an (int) and shift the range to 1-6.
@@ -24,7 +24,7 @@ public class JavaCraps {
             int comeOutRoll = die1 + die2;
             System.out.println("You rolled a " + comeOutRoll);
             
-            // TODO 3: If / Else If Statements
+            // TODO 3: If / Else If Statements Darsh
             // Write the logic to check for a Pass (7 or 11) or a Crap (2, 3, or 12)
             if (comeOutRoll == 7 || comeOutRoll == 11) {
                 System.out.println("Pass! You win the come out roll!");
